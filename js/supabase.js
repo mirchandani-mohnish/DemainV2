@@ -11,9 +11,11 @@ const data = async () => {
   console.log(data);
   console.log(error);
   const occupancy = document.getElementById("occupancy");
-  occupancy.innerHTML = data.at(-1).capacity;
+  let noOfPeople = parseInt(data.at(-1).capacity);
+  let percentOccupancy = floor(noOfPeople / 2);
+  occupancy.innerHTML = percentOccupancy;
   const seatProbability = document.getElementById("seatProbability");
-  seatProbability.innerHTML = 100 - data.at(-1).capacity;
+  seatProbability.innerHTML = 100 - percentOccupancy;
   console.log("data changed");
 
   return data;
