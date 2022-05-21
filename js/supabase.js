@@ -12,7 +12,7 @@ const data = async () => {
   console.log(error);
   const occupancy = document.getElementById("occupancy");
   let noOfPeople = parseInt(data.at(-1).capacity);
-  let percentOccupancy = floor(noOfPeople / 2);
+  let percentOccupancy = Math.floor(noOfPeople / 2);
   occupancy.innerHTML = percentOccupancy;
   const seatProbability = document.getElementById("seatProbability");
   seatProbability.innerHTML = 100 - percentOccupancy;
