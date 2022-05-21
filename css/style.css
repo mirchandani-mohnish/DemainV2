@@ -9455,8 +9455,8 @@ span {
 }
 
 a {
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   color: #fac564;
 }
 
@@ -9466,8 +9466,16 @@ a:hover, a:active, a:focus {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
   line-height: 1.4;
   color: #fff;
   font-weight: 400;
@@ -9503,8 +9511,8 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 14px;
-  padding-top: .9rem;
-  padding-bottom: .9rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   padding-left: 0;
   padding-right: 0;
   color: rgba(255, 255, 255, 0.9);
@@ -9572,8 +9580,8 @@ h1, h2, h3, h4, h5,
   color: #fff;
   border: 1px solid #fac564;
   background: #fac564;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 4px;
@@ -9605,7 +9613,7 @@ h1, h2, h3, h4, h5,
   padding-right: 0;
   text-transform: uppercase;
   font-size: 16px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .ftco-navbar-light.scrolled {
@@ -9632,7 +9640,7 @@ h1, h2, h3, h4, h5,
   background: #fac564;
   border: none !important;
   padding-top: 0.5rem !important;
-  padding-bottom: .5rem !important;
+  padding-bottom: 0.5rem !important;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 6px !important;
@@ -9673,7 +9681,7 @@ h1, h2, h3, h4, h5,
   padding-right: 0;
   text-transform: uppercase;
   font-size: 16px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .ftco-navbar-light.scrolled .nav-link {
@@ -9688,13 +9696,13 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light.scrolled.awake {
   margin-top: 0px;
-  -webkit-transition: .3s all ease-out;
-  transition: .3s all ease-out;
+  -webkit-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
 }
 
 .ftco-navbar-light.scrolled.sleep {
-  -webkit-transition: .3s all ease-out;
-  transition: .3s all ease-out;
+  -webkit-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
 }
 
 .ftco-navbar-light.scrolled .navbar-brand {
@@ -9725,7 +9733,7 @@ h1, h2, h3, h4, h5,
 }
 
 .owl-carousel .owl-item {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .owl-carousel .owl-item.active {
@@ -9798,7 +9806,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   background: #000;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -9945,8 +9953,8 @@ h1, h2, h3, h4, h5,
   border: 2px solid rgba(255, 255, 255, 0.5);
   outline: none !important;
   position: relative;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   display: inline-block;
 }
 
@@ -10169,24 +10177,19 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.ftco-services {
-  background: url(../images/food.png) repeat;
-  color: #5c3d03;
-}
-
 .ftco-services .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   background: #fac564;
   opacity: 0;
 }
 
 .ftco-services .heading-section h2 {
-  color: black;
+  color: white;
 }
 
 .services .icon {
@@ -10203,8 +10206,8 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
-  bordeR: 1px solid #bf7e06;
+  content: "";
+  border: 1px solid #bf7e06;
   z-index: -1;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -10249,7 +10252,8 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.services-wrap .img, .services-wrap .text {
+.services-wrap .img,
+.services-wrap .text {
   width: 50%;
 }
 
@@ -10304,7 +10308,7 @@ h1, h2, h3, h4, h5,
   bottom: 0;
   width: 50px;
   height: 50px;
-  content: '';
+  content: "";
   background: #fac564;
   z-index: -1;
   -webkit-transition: all 0.6s ease;
@@ -10356,7 +10360,7 @@ h1, h2, h3, h4, h5,
   bottom: 35%;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 1px;
   border-bottom: 1px dashed #bf7e06;
@@ -10463,11 +10467,13 @@ h1, h2, h3, h4, h5,
   color: white !important;
 }
 
-.appointment-form .form-group .select-wrap, .appointment-form .form-group .input-wrap {
+.appointment-form .form-group .select-wrap,
+.appointment-form .form-group .input-wrap {
   position: relative;
 }
 
-.appointment-form .form-group .select-wrap select, .appointment-form .form-group .input-wrap select {
+.appointment-form .form-group .select-wrap select,
+.appointment-form .form-group .input-wrap select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -10517,7 +10523,7 @@ h1, h2, h3, h4, h5,
 
 .staff {
   padding: 25px;
-  bordeR: 1px solid #5c3d03;
+  border: 1px solid #5c3d03;
   border-radius: 4px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -10662,7 +10668,7 @@ textarea.form-control {
 .ftco-tab-nav li a {
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   color: #ccc;
   border: 2px solid #ccc;
   border-radius: 0 !important;
@@ -10686,7 +10692,7 @@ textarea.form-control {
 .ftco-section .ftco-sub-title {
   font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
   color: #d4d4d4;
   font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300;
@@ -10724,7 +10730,7 @@ textarea.form-control {
 
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .ftco-footer .ftco-footer-widget h2 {
@@ -10894,7 +10900,7 @@ textarea.form-control {
   bottom: 4px;
   left: -100px;
   right: 0;
-  content: '';
+  content: "";
   width: 40px;
   height: 1px;
   background: #8d5d05;
@@ -10906,7 +10912,7 @@ textarea.form-control {
   bottom: 4px;
   left: 100px;
   right: 0;
-  content: '';
+  content: "";
   width: 40px;
   height: 1px;
   background: #8d5d05;
@@ -10924,7 +10930,7 @@ textarea.form-control {
   right: 0;
   width: 6px;
   height: 6px;
-  content: '';
+  content: "";
   background: #fac564;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -10938,7 +10944,7 @@ textarea.form-control {
   right: 0;
   width: 10px;
   height: 10px;
-  content: '';
+  content: "";
   background: #fac564;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -10952,7 +10958,7 @@ textarea.form-control {
   right: 0;
   width: 6px;
   height: 6px;
-  content: '';
+  content: "";
   background: #fac564;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -10974,7 +10980,7 @@ textarea.form-control {
   bottom: 4px;
   left: -100px;
   right: 0;
-  content: '';
+  content: "";
   width: 40px;
   height: 1px;
   background: #fac564;
@@ -10986,7 +10992,7 @@ textarea.form-control {
   bottom: 4px;
   left: 100px;
   right: 0;
-  content: '';
+  content: "";
   width: 40px;
   height: 1px;
   background: #fac564;
@@ -11047,7 +11053,7 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   background: #000;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .ftco-counter {
@@ -11075,8 +11081,8 @@ textarea.form-control {
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
-  bordeR: 1px solid #fac564;
+  content: "";
+  border: 1px solid #fac564;
   z-index: -1;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -11127,7 +11133,7 @@ textarea.form-control {
 .ftco-counter .ftco-label {
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .ftco-menu {
@@ -11148,7 +11154,7 @@ textarea.form-control {
   font-weight: 400;
   position: relative;
   display: inline-block;
-  bordeR: 1px solid #fac564;
+  border: 1px solid #fac564;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -11244,7 +11250,8 @@ textarea.form-control {
   padding: 0;
 }
 
-.block-23 ul li, .block-23 ul li > a {
+.block-23 ul li,
+.block-23 ul li > a {
   display: table;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -11254,7 +11261,8 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.block-23 ul li .icon, .block-23 ul li .text {
+.block-23 ul li .icon,
+.block-23 ul li .text {
   display: table-cell;
   vertical-align: top;
 }
@@ -11293,7 +11301,8 @@ textarea.form-control {
   font-weight: 400;
 }
 
-.block-27 ul li a, .block-27 ul li span {
+.block-27 ul li a,
+.block-27 ul li span {
   color: #fac564;
   text-align: center;
   display: inline-block;
@@ -11304,7 +11313,8 @@ textarea.form-control {
   border: 1px solid #bf7e06;
 }
 
-.block-27 ul li.active a, .block-27 ul li.active span {
+.block-27 ul li.active a,
+.block-27 ul li.active span {
   background: #fac564;
   color: #fff;
   border: 1px solid transparent;
@@ -11409,12 +11419,15 @@ textarea.form-control {
   display: inline-block;
 }
 
-.custom-pagination .prev a, .custom-pagination .next a {
+.custom-pagination .prev a,
+.custom-pagination .next a {
   font-size: 20px !important;
   line-height: 38px !important;
 }
 
-.custom-pagination li a, .custom-pagination .prev a, .custom-pagination .next a {
+.custom-pagination li a,
+.custom-pagination .prev a,
+.custom-pagination .next a {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -11424,7 +11437,9 @@ textarea.form-control {
   font-size: 16px;
 }
 
-.custom-pagination li.active a, .custom-pagination .prev.active a, .custom-pagination .next.active a {
+.custom-pagination li.active a,
+.custom-pagination .prev.active a,
+.custom-pagination .next.active a {
   display: block;
   width: 40px;
   height: 40px;
@@ -11437,7 +11452,11 @@ textarea.form-control {
   color: #fff;
 }
 
-.custom-pagination li.active a:hover, .custom-pagination li.active a:focus, .custom-pagination .prev.active a:hover, .custom-pagination .prev.active a:focus, .custom-pagination .next.active a:hover, .custom-pagination .next.active a:focus {
+.custom-pagination li.active a:hover, .custom-pagination li.active a:focus,
+.custom-pagination .prev.active a:hover,
+.custom-pagination .prev.active a:focus,
+.custom-pagination .next.active a:hover,
+.custom-pagination .next.active a:focus {
   color: #fff;
 }
 
@@ -11455,7 +11474,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .post-info > div {
@@ -11465,7 +11484,7 @@ textarea.form-control {
 .post-info > div .seperator {
   display: inline-block;
   margin: 0 10px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .tagcloud a {
@@ -11531,7 +11550,7 @@ textarea.form-control {
 .comment-list li .comment-body .meta {
   text-transform: uppercase;
   font-size: 13px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: #ccc;
 }
 
@@ -11541,7 +11560,7 @@ textarea.form-control {
   color: #fff;
   text-transform: uppercase;
   font-size: 11px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: 400;
   border-radius: 4px;
 }
@@ -11609,32 +11628,37 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
-.categories li, .sidelink li {
+.categories li,
+.sidelink li {
   position: relative;
   margin-bottom: 10px;
   padding-bottom: 10px;
   list-style: none;
 }
 
-.categories li:last-child, .sidelink li:last-child {
+.categories li:last-child,
+.sidelink li:last-child {
   margin-bottom: 0;
   border-bottom: none;
   padding-bottom: 0;
 }
 
-.categories li a, .sidelink li a {
+.categories li a,
+.sidelink li a {
   display: block;
   color: #cccccc;
 }
 
-.categories li a span, .sidelink li a span {
+.categories li a span,
+.sidelink li a span {
   position: absolute;
   right: 0;
   top: 0;
   color: #ccc;
 }
 
-.categories li.active a, .sidelink li.active a {
+.categories li.active a,
+.sidelink li.active a {
   color: #000;
   font-style: italic;
 }
@@ -11653,8 +11677,8 @@ textarea.form-control {
   border-radius: 16px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .2s ease-out, visibility 0s linear .2s;
-  transition: opacity .2s ease-out, visibility 0s linear .2s;
+  -webkit-transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
+  transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
   z-index: 1000;
 }
 
@@ -11673,8 +11697,8 @@ textarea.form-control {
 }
 
 #ftco-loader.show {
-  -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
-  transition: opacity .4s ease-out, visibility 0s linear 0s;
+  -webkit-transition: opacity 0.4s ease-out, visibility 0s linear 0s;
+  transition: opacity 0.4s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
 }
