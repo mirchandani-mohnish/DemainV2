@@ -13,8 +13,21 @@ const data = async () => {
   const occupancy = document.getElementById("occupancy");
   let noOfPeople = parseInt(data.at(-1).capacity);
   let percentOccupancy = Math.floor(noOfPeople / 2);
-  occupancy.innerHTML = percentOccupancy;
+
   const seatProbability = document.getElementById("seatProbability");
+
+  function task(i) {
+    setTimeout(function () {
+      occupancy.innerHTML = i;
+      seatProbability.innerHTML = 100 - i;
+    }, 150 * i);
+  }
+
+  for (let i = 0; i < percentOccupancy; i++) {
+    task(i);
+  }
+
+  occupancy.innerHTML = percentOccupancy;
   seatProbability.innerHTML = 100 - percentOccupancy;
   console.log("data changed");
 
