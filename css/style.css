@@ -10158,6 +10158,8 @@ h5,
 .ftco-about .one-half {
   width: 100%;
   padding: 30px 15px;
+  text-align: center;
+  font-size: larger;
 }
 
 @media (min-width: 768px) {
