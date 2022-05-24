@@ -10163,6 +10163,8 @@ h5,
 .ftco-about .one-half {
   width: 100%;
   padding: 30px 15px;
+  text-align: center;
+  font-size: larger;
 }
 
 @media (min-width: 768px) {
@@ -10772,7 +10774,7 @@ textarea.form-control {
 }
 
 .ftco-footer a:hover {
-  color: #fff;
+  color: #fac564;
 }
 
 .ftco-footer .ftco-heading-2 {
@@ -10830,7 +10832,7 @@ textarea.form-control {
 }
 
 .ftco-footer-social li a:hover {
-  color: #fff;
+  color: #fac564;
 }
 
 #map {
