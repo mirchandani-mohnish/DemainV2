@@ -7,7 +7,7 @@ var supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const data = async () => {
   const { data, error } = await supabase
     .from("Canteen-Capacity")
-    .select("capacity");
+    .select("capacity").range(0,7);
   console.log(data);
   console.log(error);
   const occupancy = document.getElementById("occupancy");
