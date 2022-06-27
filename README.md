@@ -1,6 +1,8 @@
 # DemainV2
 It displays seat occupancy percentage to reduce crowding to a certain extent. Moreover, it has analytics that can help one know more about the canteen. It also has a comprehensive feedback system. 
-#Main Features:
+
+Main Features:
+
 we built a web portal that addressed the following three issues:
 * Overcrowding
 * An Analytics tool for the canteen 
